@@ -1,0 +1,48 @@
+.mainTitle {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 10rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.subMainTitle {
+    font-family: "Roboto", serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.subTitleBtn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.transitionAll {
+    transition: all .3s ease-in-out;
+}
+
+ .mask, .body{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 64px;
+      line-height: 66px;
+      cursor: default;
+ }
+ 
+ .mask h1, .body h1{
+  width: 100%;
+}
+.mask {
+    mask-image: url('../assets/mask.svg');
+    mask-repeat: no-repeat;
+    mask-size: 500px;
+    background: black;
+    position: absolute;
+    color: #f60797;
+}

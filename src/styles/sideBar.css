@@ -1,0 +1,24 @@
+.burger:hover span:not(.activeFirst ~ span) {
+    width: 100%;
+}
+.burgerItem {
+    height: 2px;
+    background: var(--primary);
+    margin-bottom: 8px;
+    transition: all .2s ease-in-out;
+}
+
+.burgerItem.activeFirst {
+    transform: rotate(45deg);
+    margin-top: 10px;
+    transform-origin: center center;
+    margin-bottom: -2px;
+}
+
+.burgerItem.activeSec {
+    transform: rotate(-45deg);
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 18px;
+    transform-origin: center center;
+}

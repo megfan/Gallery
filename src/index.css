@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './styles/startGallery.css';
+@import './styles/mainPage.css';
+@import './styles/gallery.css';
+
+@theme {  
+  --color-darkPrimary: #2a2a2e;
+  --color-darkSec: #2C2D32;
+  --color-primary: #f60797;
+  --color-lightGray: #d7d7d747;
+  --color-darkThird: #171717cb;
+}
+
+:root{
+  --dark-primary: #2a2a2e;
+  --primary: #f60797;
+  --darkSec: #2C2D32;
+  --darkThird: #171717cb;
+  --darkVery: #0e0e0e;
+  --light_primary: #fafaff;
+  --light-secondary: #c9c9c9;
+  --light-tertiary: #808080;
+  --grey: #565656;
+}
+
+
+html,body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Forum", "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  width: 100%;
+}
+
+.serif {
+   font-family: "Playfair Display", serif;
+}
+
+.sunserif {
+   font-family: "Roboto", sans-serif;
+}

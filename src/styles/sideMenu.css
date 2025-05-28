@@ -1,0 +1,39 @@
+.sideMenuItem {
+    width: 100%;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    letter-spacing: .2rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.sideMenu {
+    margin-bottom: 1rem;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    letter-spacing: .2rem;
+}
+
+.sideMenuItem::after {
+    content: '';
+    height: 100%;
+    width: 0%;
+    left: 0;
+    top: 0;
+    padding: 10px 0px;
+    background-color: var(--color-darkSec);
+    position: absolute;
+    transition: all 300ms linear;
+    z-index: -1;
+}
+
+.sideMenuItem:hover {
+    color: white    
+ }
+
+.sideMenuItem:hover::after {
+   width: 100%;
+   padding: 10px 20px;
+}

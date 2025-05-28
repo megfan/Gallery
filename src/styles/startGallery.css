@@ -1,0 +1,69 @@
+ .imageContainer {
+     position: relative;
+     width: 15vw;
+     height: 15vh;
+ }
+
+ .imageContainer img {
+     object-fit: cover;
+ }
+
+ .el {
+     width: 100%;
+     height: 100%;
+     top: 0;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .el:nth-of-type(2) .imageContainer {
+     top: -30vh;
+     left: 2.5vw;
+     width: 20vw;
+     height: 20vh;
+ }
+
+ .el:nth-of-type(3) .imageContainer {
+     top: -19.5vh;
+     left: -18vw;
+     width: 16vw;
+     height: 35vh;
+ }
+
+ .el:nth-of-type(4) .imageContainer {
+     top: 0vh;
+     left: 19vw;
+     width: 18vw;
+     height: 15vh;
+ }
+
+ .el:nth-of-type(5) .imageContainer {
+     top: 30vh;
+     left: -22.5vw;
+     width: 25vw;
+     height: 25vh;
+ }
+
+ .el:nth-of-type(6) .imageContainer {
+     top: -32.5vh;
+     left: 25vw;
+     width: 20vw;
+     height: 15vh;
+ }
+
+ .el:nth-of-type(7) .imageContainer {
+     top: 29vh;
+     left: 22.5vw;
+     width: 25vw;
+     height: 15vh;
+
+ }
+  .el:nth-of-type(8) .imageContainer {
+     top: 25vh;
+     left: 0vw;
+     width: 15vw;
+     height: 15vh;
+
+ }

@@ -1,0 +1,20 @@
+.menuBarItem {
+    @apply float-left mr-10 ml-4 flex font-semibold tracking-wide items-center cursor-pointer; 
+    transition: all 700ms linear;
+}
+.menuBarItem:hover {
+    color: #c3428f;
+}
+
+.menuBarItem:hover:before {
+    background-color: var(--primary);
+}
+.menuBarItem:before {
+    content: '';
+    width: 15px;
+    height: 2px;
+    background-color: #6a7282;
+    position: relative;
+    right: 10px;
+    transition: all 700ms linear;
+}
