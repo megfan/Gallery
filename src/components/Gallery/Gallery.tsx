@@ -58,7 +58,7 @@ export const Gallery: React.FC = () => {
                 </nav>
             </header>
             <main className='w-full h-full mt-20 flex flex-col'>
-                <section className='w-full h-[45vh] p-20 '>
+                <section className='w-full h-[45vh]'>
                     <div className=''>
                         <h1 className='text-darkVery text-[10rem] font-medium'>Graphic <span className='font-bold'>Design</span></h1>
                         <p className='text-2xl font-medium w-3/5'>I'm Meg - a graphic designer and photographer with over 15 years of experience crafting visual identities

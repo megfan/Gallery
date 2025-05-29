@@ -28,7 +28,7 @@ export const SingleGallery: React.FC<SingleGalleryProps> = ({ galleryItems, titl
     const scaleTransition = useTransform(scrollYProgress, [0, 1], ['50%', '100%']);
 
     return (
-        <section className={('flex w-full h-[70vh] items-center mt-20 p-20 ') + (pictureOnRight ? '' : 'flex-row-reverse')}>
+        <section className={('flex w-full h-[70vh] items-center mt-20 px-20 ') + (pictureOnRight ? '' : 'flex-row-reverse')}>
             <div className={('w-1/2 h-full flex flex-col justify-center relative ' + (pictureOnRight ? 'items-start' : 'items-end'))}>
                 <p className='text-4xl uppercase font-medium'>{title}</p>
                 <p>{subTitle}</p>
@@ -55,7 +55,7 @@ export const SingleGallery: React.FC<SingleGalleryProps> = ({ galleryItems, titl
                     }}
                 >
                     {galleryItems.map((e, i) => {
-                        return   <motion.img src={e} alt={e} className='h-auto w-auto object-contain' key={e + i}/>
+                        return <motion.img src={e} alt={e} className='h-auto w-auto object-contain' key={e + i}/>
                     })}
                 </motion.div>
             </motion.div>

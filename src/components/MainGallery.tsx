@@ -25,7 +25,7 @@ export const MainGallery: React.FC = () => {
                 <motion.h1 className='text-[20rem] text-white font-thin ml-44'>Photo</motion.h1>
             </div>
             <motion.div className='relative h-[200vh] z-10'
-               style={{ background: bgColorTransition }}
+                style={{ background: bgColorTransition }}
             >
                 <div className='sticky top-0 h-[100vh] overflow-hidden'>
                     {GalleryImages(container).map(({ src, scale }, index) => {
@@ -40,22 +40,9 @@ export const MainGallery: React.FC = () => {
                         </motion.div>
                     })
                     }
-                    {/* <motion.div style={{scale}} className='w-full h-full absolute top-0 flex items-center justify-center'>
-                    <div className='imageContainer'>
-                        <img
-                            src={mountain}
-                            className='object-cover'
-                            alt="image"
-                        />
-                    </div>
-
-                </motion.div> */}
-                    {/* <img src={manJumping} alt='manJumping' className='h-screen object-cover bg-left ' />
-                <img src={ela} alt='woman' className='h-screen object-cover bg-left ' />
-                <img src={john} alt='manJumping' className='h-screen object-cover bg-left ' /> */}
-            </div>
-                </motion.div>
-                 <div className='h-screen bg-black mb-40'>
+                </div>
+            </motion.div>
+            <div className='h-screen bg-black mb-40'>
                 <motion.h1 className='text-[20rem] text-white font-thin ml-44'>Photo</motion.h1>
             </div>
         </motion.div>

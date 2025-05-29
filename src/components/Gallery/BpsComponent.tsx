@@ -9,15 +9,15 @@ export const BpsComponent: React.FC = () => {
         offset: ["start start", "end end"]
     });
 
-    const scaleTransition = useTransform(scrollYProgress, [0, 1], ['30%', '90%']);
+     const scaleTransition = useTransform(scrollYProgress, [0, 1], ['20%', '100%']);
 
     return (
-        <section className={('flex w-full h-[90vh] items-center my-40 flex-row-reverse px-20 ')}>
+        <section className={('flex w-full h-[90vh] items-center my-40 px-20 flex-row-reverse ')}>
             <div className={('w-1/2 h-full flex flex-col justify-center relative items-end')}>
                 <p className='text-4xl uppercase font-medium'>Bank BPS campaign</p>
                 <p>GRANTOWI</p>
             </div>
-            <motion.div className='w-1/2 h-full flex items-center'>
+            <motion.div className='w-2/3 h-full flex items-center'>
                 <motion.video width="auto" height="auto" controls={false} playsInline autoPlay loop muted className='video'
                     style={{ width: scaleTransition }}
                     transition={{
