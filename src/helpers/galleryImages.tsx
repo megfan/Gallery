@@ -3,13 +3,10 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from "motion/react";
 import manJumping from '../assets/manJumping.webp';
 import Lon from '../assets/Lon.webp';
-import john from '../assets/john.webp';
 import ny from '../assets/ny.webp';
 import x from '../assets/x.webp';
-import sss from '../assets/ssss.webp';
 import mountain from '../assets/mountain.avif';
 import dance from '../assets/dance.jpg';
-import book from '../assets/book.jpg';
 import tree from '../assets/tree.jpg';
 import mask from '../assets/mask.jpg';
 

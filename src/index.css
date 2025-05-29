@@ -4,27 +4,7 @@
 @import './styles/startGallery.css';
 @import './styles/mainPage.css';
 @import './styles/gallery.css';
-
-@theme {  
-  --color-darkPrimary: #2a2a2e;
-  --color-darkSec: #2C2D32;
-  --color-primary: #f60797;
-  --color-lightGray: #d7d7d747;
-  --color-darkThird: #171717cb;
-}
-
-:root{
-  --dark-primary: #2a2a2e;
-  --primary: #f60797;
-  --darkSec: #2C2D32;
-  --darkThird: #171717cb;
-  --darkVery: #0e0e0e;
-  --light_primary: #fafaff;
-  --light-secondary: #c9c9c9;
-  --light-tertiary: #808080;
-  --grey: #565656;
-}
-
+@import './styles/immComponent.css';
 
 html,body {
   width: 100%;
@@ -53,4 +33,15 @@ body {
 
 .sunserif {
    font-family: "Roboto", sans-serif;
+}
+
+.video {
+  pointer-events: none;
+}
+video::-webkit-media-controls-panel {
+display: none !important;
+opacity: 1 !important;}
+
+video::-webkit-media-controls-start-playback-button {
+    display: none;
 }

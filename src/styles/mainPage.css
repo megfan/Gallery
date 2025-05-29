@@ -42,7 +42,7 @@
     mask-image: url('../assets/mask.svg');
     mask-repeat: no-repeat;
     mask-size: 500px;
-    background: black;
+    background: #f60797;
     position: absolute;
-    color: #f60797;
+    color: black;
 }
