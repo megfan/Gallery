@@ -57,8 +57,8 @@ export const Gallery: React.FC = () => {
                     </Link>
                 </nav>
             </header>
-            <main className='w-full h-full mt-20 flex flex-col'>
-                <section className='w-full h-[45vh]'>
+            <main className='w-full h-full mt-20 px-20 flex flex-col'>
+                <section className='w-full h-[40vh] mb-20'>
                     <div className=''>
                         <h1 className='text-darkVery text-[10rem] font-medium'>Graphic <span className='font-bold'>Design</span></h1>
                         <p className='text-2xl font-medium w-3/5'>I'm Meg - a graphic designer and photographer with over 15 years of experience crafting visual identities
@@ -71,10 +71,10 @@ export const Gallery: React.FC = () => {
                 </section>
              
                 <SingleGallery galleryItems={galleryCLOS} title='TOYOTA CAMPAING' subTitle='CLOS BROTHERS' pictureOnRight={true}/>
-                <div className='text-4xl my-28 ml-44 w-1/3 leading-[3.5rem] font-medium'>
+                <div className='text-4xl my-14 ml-44 w-1/3 leading-[3.5rem] font-medium'>
                     <p>Highlights of cases I've proudly crafted in collaboration with visionary clients and friends over the years.</p>
                 </div>
-                <SingleGallery galleryItems={galleryCL} title='Coders Lab campaign' subTitle='CODERS LAB' pictureOnRight={false}/>
+                <SingleGallery galleryItems={galleryCL} title='Coders Lab campaign' subTitle='CODERS LAB' pictureOnRight={true}/>
                 <ImmComponent/>
                 <BpsComponent/>
                 <PaperComponent/>
