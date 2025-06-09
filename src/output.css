@@ -754,6 +754,10 @@ video {
   margin-top: 16rem;
 }
 
+.mb-44 {
+  margin-bottom: 11rem;
+}
+
 .block {
   display: block;
 }
@@ -834,6 +838,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[300vh\] {
+  height: 300vh;
 }
 
 .w-1\/2 {
@@ -1174,6 +1182,11 @@ video::-webkit-media-controls-panel {
 
 video::-webkit-media-controls-start-playback-button {
   display: none;
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(246 7 151 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:ml-20 {

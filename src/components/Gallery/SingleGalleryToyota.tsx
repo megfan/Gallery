@@ -5,7 +5,7 @@ import CLOS4 from "../assets/design/CLOS4.jpg";
 import CLOS3 from "../assets/design/CLOS3.jpg";
 import CLOS2 from "../assets/design/CLOS2.jpg";
 import CLOS1 from "../assets/design/CLOS1.jpg";
-import { Arrow } from '../helpers/Arrow';
+import { Arrow } from '../../helpers/Arrow';
 
 export const SingleGalleryToyota: React.FC = () => {
 

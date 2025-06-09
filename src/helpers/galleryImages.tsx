@@ -14,7 +14,7 @@ export function GalleryImages(container: React.RefObject<null>) {
 
     const { scrollYProgress } = useScroll({
         target: container,
-        offset: ['start start', 'end end']
+        offset: ['start end', 'end end']
     })
 
     const scale4 = useTransform(scrollYProgress, [0, 1], [1, 7]);

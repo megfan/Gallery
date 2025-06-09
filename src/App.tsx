@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import Lenis from 'lenis'
 import { MainPage } from './components/MainPage';
-import { MainGallery } from './components/MainGallery';
+import { Photo } from './components/Photo/Photo';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router';
 import { Gallery } from './components/Gallery/Gallery';
 import { AnimationWrapper } from './helpers/AnimationWrapper';
@@ -32,7 +32,7 @@ function App() {
             } />
           <Route path="photo" element={
               <AnimationWrapper>
-                <MainGallery />
+                <Photo />
               </AnimationWrapper>
             } />
           <Route path="gallery" element={

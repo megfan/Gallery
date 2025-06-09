@@ -6,6 +6,7 @@
 @import './styles/gallery.css';
 @import './styles/immComponent.css';
 @import './styles/horizontalComponent.css';
+@import './styles/photo.css';
 
 html,body {
   width: 100%;
@@ -45,4 +46,16 @@ opacity: 1 !important;}
 
 video::-webkit-media-controls-start-playback-button {
     display: none;
+}
+
+:root{
+  --dark-primary: #2a2a2e;
+  --primary: #f60797;
+  --darkSec: #2C2D32;
+  --darkThird: #171717cb;
+  --darkVery: #171717;
+  --light_primary: #fafaff;
+  --light-secondary: #c9c9c9;
+  --light-tertiary: #808080;
+  --grey: #565656;
 }

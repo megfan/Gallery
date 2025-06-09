@@ -1,0 +1,10 @@
+
+
+.linkPink {
+    @apply text-2xl font-semibold mr-10;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.linkPink:hover {
+    color: var(--primary);
+}

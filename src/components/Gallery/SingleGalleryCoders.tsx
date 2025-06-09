@@ -5,7 +5,7 @@ import CL4 from "../assets/design/CL4.png";
 import CL3 from "../assets/design/CL3.png";
 import CL2 from "../assets/design/CL2.png";
 import CL1 from "../assets/design/CL1.png";
-import { Arrow } from '../helpers/Arrow';
+import { Arrow } from '../../helpers/Arrow';
 
 export const SingleGalleryCoders: React.FC = () => {
 
