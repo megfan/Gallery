@@ -1,0 +1,21 @@
+
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 3vw;
+    padding: 0 4rem;
+    /* height: 100%;
+    width: 200vw; */
+}
+
+.imagesItem {
+    width: 40vw;
+}
+
+.image {
+    width: 80vw;
+    height: auto;
+    background: yellowgreen;
+}

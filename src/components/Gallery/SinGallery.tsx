@@ -25,7 +25,7 @@ export const SingleGallery: React.FC<SingleGalleryProps> = ({ galleryItems, titl
             : setAnimateX(0);
     }
 
-    const scaleTransition = useTransform(scrollYProgress, [0, 1], ['50%', '100%']);
+    const scaleTransition = useTransform(scrollYProgress, [0, 1], ['50%', '130%']);
 
     return (
         <section className={('flex w-full h-[70vh] items-center px-20 ') + (pictureOnRight ? '' : 'flex-row-reverse')}>

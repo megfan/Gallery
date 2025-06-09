@@ -19,6 +19,7 @@ import { SingleGallery } from './SinGallery';
 import { ImmComponent } from './ImmComponent';
 import { BpsComponent } from './BpsComponent';
 import { PaperComponent } from './PaperComponent';
+import { ToyotaHorizontalComponent } from './ToyotaHorizontalComponent';
 
 export const Gallery: React.FC = () => {
 
@@ -38,7 +39,7 @@ export const Gallery: React.FC = () => {
         setTimeout(() => {
             setIndex(index + 1)
         }, 400)
-    },[isHovered]);
+    }, [isHovered]);
 
     const scaleTransition = useTransform(scrollYProgress, [0, 1], ['70%', '100%']);
 
@@ -69,15 +70,16 @@ export const Gallery: React.FC = () => {
                         <button className='galleryBtn'>Overiew</button>
                     </div>
                 </section>
-             
-                <SingleGallery galleryItems={galleryCLOS} title='TOYOTA CAMPAING' subTitle='CLOS BROTHERS' pictureOnRight={true}/>
+
+                <SingleGallery galleryItems={galleryCLOS} title='TOYOTA CAMPAING' subTitle='CLOS BROTHERS' pictureOnRight={true} />
                 <div className='text-4xl my-14 ml-44 w-1/3 leading-[3.5rem] font-medium'>
                     <p>Highlights of cases I've proudly crafted in collaboration with visionary clients and friends over the years.</p>
                 </div>
-                <SingleGallery galleryItems={galleryCL} title='Coders Lab campaign' subTitle='CODERS LAB' pictureOnRight={true}/>
-                <ImmComponent/>
-                <BpsComponent/>
-                <PaperComponent/>
+                <SingleGallery galleryItems={galleryCL} title='Coders Lab campaign' subTitle='CODERS LAB' pictureOnRight={true} />
+                <ImmComponent />
+                <ToyotaHorizontalComponent/>
+                <BpsComponent />
+                <PaperComponent />
             </main>
 
 

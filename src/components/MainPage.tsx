@@ -29,9 +29,9 @@ export const MainPage: React.FC = () => {
         </motion.div>
         <motion.div className='body'>
           <motion.h1 className='mainTitle text-darkThird'
-            initial={{ y: -100, opacity: 0, filter: 'blur(40px)', scale: '120%' }}
+            initial={{ y: -200, opacity: 0, filter: 'blur(40px)', scale: '20%' }}
             whileInView={{ y: 0, opacity: 1, filter: 'blur(0px)', scale: '100%' }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 1 , type: "spring", stiffness: 20 }}
           >Margaret Staszewska</motion.h1>
         </motion.div>
       </div>

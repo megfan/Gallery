@@ -13,7 +13,7 @@ export const PaperComponent: React.FC = () => {
     const scale = useTransform(scrollYProgress, [0, 1], ['100%', '200%']);
 
     return (
-        <section className={('flex w-full h-auto items-center bg-black')}>
+        <section className={('flex w-full h-auto items-center')}>
             {/* <div className={('w-1/2 h-full flex flex-col justify-center relative items-end')}>
                 <p className='text-4xl uppercase font-medium'>Bank BPS campaign</p>
                 <p>GRANTOWI</p>

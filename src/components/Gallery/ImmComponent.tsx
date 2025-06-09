@@ -32,7 +32,7 @@ export const ImmComponent: React.FC = () => {
                     })
                     }
             </div>
-            <div className={('w-1/3 h-full flex flex-col justify-center relative ')}>
+            <div className={('w-1/3 h-full flex flex-col justify-center items-end ')}>
                 <p className='text-4xl uppercase font-medium'>Rebranding & www</p>
                 <p className='uppercase'>Media Monitoring Institute</p>
             </div>

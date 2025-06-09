@@ -5,6 +5,7 @@
 @import './styles/mainPage.css';
 @import './styles/gallery.css';
 @import './styles/immComponent.css';
+@import './styles/horizontalComponent.css';
 
 html,body {
   width: 100%;
