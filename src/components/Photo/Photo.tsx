@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { GalleryImages } from '../../helpers/galleryImages';
 import { Link } from 'react-router';
 import logoPink from '../../assets/logoPink.png';
+import { PhotoGalleryFirst } from './PhotoGalleryFirst';
 
 export const Photo: React.FC = () => {
 
@@ -33,17 +34,18 @@ export const Photo: React.FC = () => {
             <main className='w-full h-full mt-20 px-20 flex flex-col'>
                 <section className='w-full h-screen mb-20'>
                     <div className=''>
-                        <h1 className='text-white text-[10rem] font-medium'>Photography</h1>
+                        <h1 className='text-white text-[10rem] font-medium'>Photo<span className='text-primary'>graphy</span></h1>
                         <p className='text-white text-2xl font-medium w-3/5'>I'm Meg - a graphic designer and photographer with over 15 years of experience crafting visual identities
                             and telling stories through images and design.</p>
                     </div>
                     <div className='mt-10 '>
-                        <button className='galleryBtn mr-5 text-white hover:text-primary'>Go to photogrphy</button>
-                        <button className='galleryBtn'>Overiew</button>
+                        <button className='galleryBtn mr-5 text-white'>Go to photogrphy</button>
+                        <button className='galleryBtn text-white'>Overiew</button>
                     </div>
                 </section>
 
             </main>
+                <PhotoGalleryFirst/>
 
 
         </div>
