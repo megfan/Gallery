@@ -20,6 +20,8 @@ import { ImmComponent } from './ImmComponent';
 import { BpsComponent } from './BpsComponent';
 import { PaperComponent } from './PaperComponent';
 import { ToyotaHorizontalComponent } from './ToyotaHorizontalComponent';
+import { BrandCampaigns } from './Brand Campaigns';
+import { WebDesigns } from './WebDesign';
 
 export const Gallery: React.FC = () => {
 
@@ -70,7 +72,12 @@ export const Gallery: React.FC = () => {
                         <button className='galleryBtn'>Overiew</button>
                     </div>
                 </section>
+<div className='text-4xl my-14 ml-44 w-1/3 leading-[3.5rem] font-medium'>
+                    <p>What do I do?</p>
+                </div>
 
+                <BrandCampaigns/>
+                <WebDesigns/>
                 <SingleGallery galleryItems={galleryCLOS} title='TOYOTA CAMPAING' subTitle='CLOS BROTHERS' pictureOnRight={true} />
                 <div className='text-4xl my-14 ml-44 w-1/3 leading-[3.5rem] font-medium'>
                     <p>Highlights of cases I've proudly crafted in collaboration with visionary clients and friends over the years.</p>

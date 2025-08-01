@@ -109,3 +109,10 @@
     75% { border-width: 3px;}
     100% { border-width: 10px;}
 }
+
+.photoParallaxContainer {
+    @apply items-center justify-center relative mx-10 overflow-hidden;
+}
+.photoParallax {
+    @apply object-cover w-full h-full absolute;
+}

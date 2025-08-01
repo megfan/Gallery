@@ -1,7 +1,7 @@
 .mainTitle {
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 10rem;
+    font-size: 8rem;
     line-height: 1;
     text-transform: uppercase;
 }
@@ -39,7 +39,7 @@
   width: 100%;
 }
 .mask {
-    mask-image: url('../assets/mask.svg');
+    mask-image: url('./mask.svg');
     mask-repeat: no-repeat;
     mask-size: 500px;
     background: #f60797;

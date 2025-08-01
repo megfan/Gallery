@@ -16,7 +16,7 @@ export const MainPage: React.FC = () => {
   const size = isHovered ? 200 : 40;
 
   return (
-    <div className="flex w-full h-screen flex-col items-center justify-center m-0 p-0 relative bg-darkVery overflow-hidden">
+    <div className="flex w-full h-screen flex-col items-center justify-center m-0 relative bg-darkVery overflow-hidden">
       <div className='w-full m-0 h-screen flex flex-col items-start justify-center relative'>
         <motion.div className='mask z-10 absolute'
           animate={{
@@ -24,18 +24,18 @@ export const MainPage: React.FC = () => {
             WebkitMaskSize: `${size}px`,
           }}
         >
-          <h1 className='mainTitle' onMouseEnter={() => { setIsHovered(true) }} onMouseLeave={() => { setIsHovered(false) }}
+          <h1 className='mainTitle text-center' onMouseEnter={() => { setIsHovered(true) }} onMouseLeave={() => { setIsHovered(false) }}
           >Margaret Staszewska</h1>
         </motion.div>
         <motion.div className='body'>
-          <motion.h1 className='mainTitle text-darkThird'
+          <motion.h1 className='mainTitle text-darkThird text-center'
             initial={{ y: -200, opacity: 0, filter: 'blur(40px)', scale: '20%' }}
             whileInView={{ y: 0, opacity: 1, filter: 'blur(0px)', scale: '100%' }}
             transition={{ duration: 1 , type: "spring", stiffness: 20 }}
           >Margaret Staszewska</motion.h1>
         </motion.div>
       </div>
-      <div className='w-full flex justify-between items-start absolute bottom-[30%] z-20'>
+      <div className='w-full px-24 flex justify-between items-start absolute bottom-[30%] z-20'>
         <Link to='gallery'>
           <motion.div className='subTitleBtn group -ml-14'
             initial={{ x: -200, opacity: 0, filter: 'blur(40px)' }}

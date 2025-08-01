@@ -1,12 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import './styles/startGallery.css';
 @import './styles/mainPage.css';
 @import './styles/gallery.css';
 @import './styles/immComponent.css';
 @import './styles/horizontalComponent.css';
 @import './styles/photo.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,body {
   width: 100%;
