@@ -2,7 +2,7 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from 'react';
 import bps from '../../assets/design/BPS3.jpg';
-import cl3 from '../../assets/design/CL3.png';
+import toy from '../../assets/design/Toy.jpg';
 import guru from '../../assets/design/GURU.jpg';
 import paper2 from '../../assets/design/PAPER1.jpg';
 import { ParallaxPicFrame } from "../../helpers/ParallaxPicFrame";
@@ -26,20 +26,15 @@ export const WebDesigns = () => {
                     engagement and reinforcing your brand's online presence.-------------- do zmiany</p>
             </div>
             <div className='relative h-full w-2/3 z-10'>
-                {/* <motion.div className=' w-full h-full'
-                    style={{ scale, y }}
-                    transition={{
-                        duration: 1,
-                    }}
-                > */}
-                <div className='w-[20vw] h-[50vh] absolute top-[20vh] overflow-hidden'>
-                    <ParallaxPicFrame src={paper2} styles={'photoParallax'} />
-                </div>
-                <div className='w-[20vw] h-[50vh] absolute top-[10vh] left-[25vw] overflow-hidden'>
+                <div className='w-[14vw] h-[50vh] absolute top-[14vh] left-[28vw] overflow-hidden'>
                     <ParallaxPicFrame src={guru} styles={'photoParallax'} />
                 </div>
-
-                {/* </motion.div> */}
+                <div className='w-[14vw] h-[50vh] absolute top-[20vh]  left-[14vw] overflow-hidden'>
+                    <ParallaxPicFrame src={paper2} styles={'photoParallax'} />
+                </div>
+                  <div className='w-[14vw] h-[50vh] absolute top-[7vh] left-[0vw] overflow-hidden'>
+                    <ParallaxPicFrame src={toy} styles={'photoParallax'} />
+                </div>
             </div>
         </section>
     )

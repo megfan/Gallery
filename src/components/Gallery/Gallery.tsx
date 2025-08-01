@@ -22,6 +22,7 @@ import { PaperComponent } from './PaperComponent';
 import { ToyotaHorizontalComponent } from './ToyotaHorizontalComponent';
 import { BrandCampaigns } from './Brand Campaigns';
 import { WebDesigns } from './WebDesign';
+import { ProductCampaign } from './ProductCampaign';
 
 export const Gallery: React.FC = () => {
 
@@ -78,6 +79,7 @@ export const Gallery: React.FC = () => {
 
                 <BrandCampaigns/>
                 <WebDesigns/>
+                <ProductCampaign/>
                 <SingleGallery galleryItems={galleryCLOS} title='TOYOTA CAMPAING' subTitle='CLOS BROTHERS' pictureOnRight={true} />
                 <div className='text-4xl my-14 ml-44 w-1/3 leading-[3.5rem] font-medium'>
                     <p>Highlights of cases I've proudly crafted in collaboration with visionary clients and friends over the years.</p>
